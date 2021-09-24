@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Apple-Cocoapod-KochavaLocation_Example' do
+  pod 'Apple-Cocoapod-KochavaLocation', :path => '../'
+
+  target 'Apple-Cocoapod-KochavaLocation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
