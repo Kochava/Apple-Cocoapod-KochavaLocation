@@ -1,5 +1,6 @@
 import XCTest
-import Apple-Cocoapod-KochavaLocation
+// import Apple-Cocoapod-KochavaLocation
+import KochavaLocation
 
 class Tests: XCTestCase {
     

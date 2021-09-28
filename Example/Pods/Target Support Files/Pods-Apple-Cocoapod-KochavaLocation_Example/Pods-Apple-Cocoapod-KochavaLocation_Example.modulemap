@@ -1,0 +1,6 @@
+framework module Pods_Apple_Cocoapod_KochavaLocation_Example {
+  umbrella header "Pods-Apple-Cocoapod-KochavaLocation_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
