@@ -1,9 +1,9 @@
 PODS:
-  - Apple-Cocoapod-KochavaCore (0.1.0)
-  - Apple-Cocoapod-KochavaLocation (0.1.0):
-    - Apple-Cocoapod-KochavaTracker (~> 0.1.0)
-  - Apple-Cocoapod-KochavaTracker (0.1.0):
-    - Apple-Cocoapod-KochavaCore (~> 0.1.0)
+  - Apple-Cocoapod-KochavaCore (5.0.0)
+  - Apple-Cocoapod-KochavaLocation (5.0.0):
+    - Apple-Cocoapod-KochavaTracker (~> 5.0.0)
+  - Apple-Cocoapod-KochavaTracker (5.0.0):
+    - Apple-Cocoapod-KochavaCore (~> 5.0.0)
 
 DEPENDENCIES:
   - Apple-Cocoapod-KochavaLocation (from `../`)
@@ -18,9 +18,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Apple-Cocoapod-KochavaCore: 3c82dbcd03a48cf63976bf650bd21794a45e2f7c
-  Apple-Cocoapod-KochavaLocation: 87413dcab59f4891b92a0b28bc3d3932ad37b499
-  Apple-Cocoapod-KochavaTracker: 249e4c0d65bd7cb0e948c6b60525c592ca3ef347
+  Apple-Cocoapod-KochavaCore: 9df48e53d70dc8fc6c34d05414e897786762db32
+  Apple-Cocoapod-KochavaLocation: acfb75b05093e94c648594543b1691471b6845ae
+  Apple-Cocoapod-KochavaTracker: ea0f53d1b33bf564f28948f9d7a020163d3e863a
 
 PODFILE CHECKSUM: 5a6c3a4bf16ca9729ebe3bd3aff368ff238f4e59
 
