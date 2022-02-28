@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Apple-Cocoapod-KochavaLocation'
-    s.version          = '5.1.0'
+    s.version          = '5.1.1'
     s.summary          = 'The KochavaLocation module of the KochavaTracker SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.'
     
     # This description is used to generate tags and improve search results.
@@ -43,16 +43,12 @@ Pod::Spec.new do |s|
     s.osx.frameworks   = 'Foundation', 'AppKit', 'AVFoundation', 'CoreGraphics', 'CoreLocation', 'SystemConfiguration'
     s.tvos.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'CoreLocation', 'SystemConfiguration'
     s.watchos.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'CoreLocation'
-    s.dependency 'Apple-Cocoapod-KochavaTracker', '~> 5.1.0'
+    s.dependency 'Apple-Cocoapod-KochavaTracker', '~> 5.1.1'
 
     # s.platforms = { :ios => "10.3", :osx => "10.14", :tvos => "10.2", :watchos => "3.2" }
     s.vendored_frameworks = 'Apple-Cocoapod-KochavaLocation/Frameworks/KochavaLocation.xcframework'
     s.preserve_paths = 'Apple-Cocoapod-KochavaLocation/Frameworks/KochavaLocation.xcframework'
 
     s.swift_versions = '5.0'
-
-    # Xcode 12 Bug Fix:  https://github.com/CocoaPods/CocoaPods/issues/10065#issuecomment-694268918
-    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end

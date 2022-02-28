@@ -1,6 +1,6 @@
 {
   "name": "Apple-Cocoapod-KochavaLocation",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "summary": "The KochavaLocation module of the KochavaTracker SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.",
   "description": "The KochavaLocation module is an optional module within the Kochava SDK providing geofence engagement and geolocation tracking.  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.  Complete location services support is provided on iOS.",
   "homepage": "http://www.kochava.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Kochava/Apple-Cocoapod-KochavaLocation.git",
-    "tag": "5.1.0"
+    "tag": "5.1.1"
   },
   "platforms": {
     "ios": "10.3",
@@ -62,17 +62,11 @@
   },
   "dependencies": {
     "Apple-Cocoapod-KochavaTracker": [
-      "~> 5.1.0"
+      "~> 5.1.1"
     ]
   },
   "vendored_frameworks": "Apple-Cocoapod-KochavaLocation/Frameworks/KochavaLocation.xcframework",
   "preserve_paths": "Apple-Cocoapod-KochavaLocation/Frameworks/KochavaLocation.xcframework",
   "swift_versions": "5.0",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
   "swift_version": "5.0"
 }
